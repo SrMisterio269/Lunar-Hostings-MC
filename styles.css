@@ -1,0 +1,92 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0; padding: 0;
+  background: #121212;
+  color: #eee;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #222;
+}
+
+header nav .logo {
+  font-weight: bold;
+  font-size: 24px;
+  color: #57f287;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #eee;
+}
+
+.banner {
+  background: url('minecraft-bg.jpg') no-repeat center center/cover;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.banner h1 {
+  font-size: 3rem;
+  color: #57f287;
+  margin-bottom: 10px;
+}
+
+.banner p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background: #57f287;
+  padding: 10px 20px;
+  border: none;
+  color: #121212;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.planes {
+  padding: 40px 20px;
+  background: #1a1a1a;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.plan {
+  background: #292929;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+}
+
+.plan h3 {
+  margin-top: 0;
+  color: #57f287;
+}
+
+footer {
+  background: #222;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+  color: #888;
+}
